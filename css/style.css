@@ -98,6 +98,7 @@ img {
 }
 
 /* my recipies */
+
 .recipies .container {
     width: 1100px;
     padding: 120px 0;
@@ -153,14 +154,14 @@ img {
 }
 
 .counter {
-    padding: 30px 0 120px;
+    padding: 0 0 120px;
 }
 
 .counter .box {
     padding: 80px 0;
     width: 1100px;
     text-align: center;
-    box-shadow: 0px -3px 30px 1px rgba(224, 224, 224, 0.561);
+    box-shadow: 0px -2px 30px 1px rgb(224 224 224 / 70%);
     border-radius: 20px;
 }
 
