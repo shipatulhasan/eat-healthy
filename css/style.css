@@ -82,6 +82,9 @@ img {
     align-self: center;
     
 }
+.about img{
+    margin: 0 0 -5px;
+}
 .about .content{
     font-size: 18px;
 }
