@@ -15,7 +15,7 @@
     display: flex;
     flex-flow: wrap row;
     justify-content: space-between;
-    align-items: stretch;
+    align-items: center;
 }
 
 .col-2 {
@@ -67,10 +67,6 @@ img {
 /* Hero section */
 .hero .container {
     min-height: 100vh;
-}
-
-.hero .col-2 {
-    align-self: center;
 }
 
 .hero .content {
