@@ -6,7 +6,7 @@
 }
 
 .container {
-    width: 1100px;
+    width: 1180px;
     max-width: 100%;
     margin: auto;
 }
@@ -19,8 +19,8 @@
 }
 
 .col-2 {
-    flex-basis: 50%;
-    max-width: 50%;
+    flex-basis: 48%;
+    max-width: 48%;
 }
 
 .heading {
@@ -52,9 +52,9 @@ img {
 
 .btn a {
 
-    background: linear-gradient(90deg, #13b6fb, #008bff);
+    background: linear-gradient(90deg, #12B3FB, #008bff);
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     text-decoration: none;
     text-transform: capitalize;
@@ -76,4 +76,19 @@ img {
 .hero .content {
     color: #848484;
     ;
+}
+/* About section */
+.about .col-2 {
+    align-self: center;
+    
+}
+.about .content{
+    font-size: 18px;
+}
+.about{
+    background: no-repeat url(../img/shapes/Frame\ 57.jpg);
+    background-position: top center;
+    background-size: cover;
+    padding: 50px 0 0;
+    
 }
