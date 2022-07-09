@@ -141,7 +141,7 @@ img {
 
 .card-body h2{
     color: #3a3a3a;
-    /* padding: 0 0 15px; */
+    padding: 0 0 10px; 
     line-height: 1.4;
 }
 
