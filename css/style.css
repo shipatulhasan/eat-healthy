@@ -4,10 +4,14 @@
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+  }
 
 .container {
     width: 1180px;
     max-width: 100%;
+    padding: 0 20px;
     margin: 0 auto;
 }
 
@@ -53,7 +57,7 @@ img {
 }
 
 .btn {
-    margin: 25px 0 0 0;
+    margin: 25px 0;
 }
 
 .btn a {
@@ -104,6 +108,7 @@ img {
 
 .recipies .container {
     width: 1100px;
+    max-width: 100%;
     padding: 120px 0;
 }
 
@@ -111,12 +116,14 @@ img {
     padding: 0 0 50px;
     text-align: center;
     width: 700px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
 /* card design */
 .card {
     padding: 25px;
+    margin: 5px;
     box-shadow: 0 0 30px 0px rgba(224, 224, 224, 0.70);
     border-radius: 20px;
 }
@@ -193,4 +200,221 @@ footer h1 {
 footer p {
     color: #fff;
     line-height: 1.5;
+}
+
+/* Responsive */
+@media(max-width:1200px){
+    .hero .container{
+        min-height: 600px;
+    }
+    .hero .heading{
+        font-size: 45px;
+    }   
+}
+@media(max-width:1080px){
+   
+    .hero .heading{
+        font-size: 38px;
+    }   
+}
+@media(max-width:992px){
+    .container{
+        padding: 0 30px;
+    }
+    .col-2 {
+        flex-basis: 45%;
+        max-width: 45%;
+    }
+    .heading{
+        font-size: 35px;
+    }
+    .content{
+        font-size: 16px;
+    }
+    .article{
+        padding: 0 0 30px;
+        width: 600px;
+        max-width: 100%;
+    }
+    .hero .heading{
+        font-size: 30px;
+    }
+    .hero .content{
+        font-size: 18px;
+    }
+   
+    
+    .hero{
+        padding: 50px 0 0;
+    }
+    .hero .container{
+        min-height: 400px;
+    }
+    /* .hero .row,.about .row{
+        flex-flow: wrap column-reverse;
+    } */
+    img{
+        width: 100%;
+    }
+
+    /* Recipie */
+    .block {
+        width:600px ;
+        padding: 0 0 20px;
+    }
+    .recipies .container {
+        padding: 50px 0;
+    }
+    .recipies .row{
+        justify-content: space-evenly;
+    }
+    .counter{
+        padding: 0 0 80px;
+    }
+
+}
+@media(max-width:768px){
+    .container{
+        padding: 0 30px;
+        text-align: center;
+        /* padding: 30px; */
+    }
+    .article{
+        padding: 0 0 30px;
+        width: 600px;
+        max-width: 100%;
+    }
+    .heading {
+        font-size: 40px;
+    }
+    
+    .content {
+        font-size: 18px;
+    }
+    .col-2 {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .hero .heading{
+        font-size: 45px;
+    }
+    .hero .content{
+        font-size: 20px;
+    }
+    .hero{
+        padding: 50px 0 0;
+    }
+    .hero .row,.about .row{
+        flex-flow: wrap column-reverse;
+    }
+    img{
+        width: 80%;
+    }
+
+    /* Recipie */
+    .recipies .container {
+        width: 600px;
+        max-width: 100%;
+        padding: 50px 0;
+        /* margin: 0 auto; */
+    }
+    .block {
+        width:600px ;
+        padding: 0 0 20px;
+    }
+    .card{
+        /* margin-bottom: 20px; */
+        margin: 0 10px 20px;
+    }
+    .card-body {
+        padding: 30px 10px;
+    }
+    .counter{
+        margin: 0 20px;
+    }
+
+}
+@media(max-width:600px){
+    .container{
+        text-align: center;
+        padding: 0 30px;
+    }
+    .hero .container{
+        min-height: 400px;
+    }
+    .col-2 {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .hero .heading{
+        font-size: 35px;
+    }
+    .heading{
+        font-size: 30px;
+    }
+    .content {
+        font-size: 16px;
+    }
+    .hero{
+        padding: 30px 0;
+    }
+    /* .about{
+        padding:30px;
+    } */
+    .hero .row,.about .row{
+        flex-flow: wrap column-reverse;
+    }
+    img{
+        width: 80%;
+    }
+
+    /* Recipie */
+    .recipies .container {
+        /* width: 600px; */
+        padding: 50px 30px;
+        /* margin: 0 auto; */
+    }
+    .block {
+        width:500px ;
+        padding: 0 0 20px;
+    }
+    .card{
+        /* margin-bottom: 20px; */
+        margin: 0 0 20px;
+        padding: 5px;
+    }
+    .counter{
+        margin: 0 20px;
+        padding: 0 0 50px;
+    }
+    .counter-heading {
+        font-size: 20px;
+    }
+
+}
+@media(max-width:420px){
+    .container{
+        padding: 0 10px;
+    }
+    .hero .heading{
+        font-size: 24px;
+    }
+    .hero .content{
+        font-size: 16px;
+    }
+    .heading{
+        font-size: 20px;
+    }
+    .content{
+        font-size: 14px;
+    }
+    .card{
+        padding:0px;
+    }
+    .card-title{
+        font-size: 16px;
+    }
+    .card-content, .card-title .date{
+        font-size: 13px;
+    }
 }
