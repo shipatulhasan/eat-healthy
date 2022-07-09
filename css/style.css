@@ -139,8 +139,7 @@ img {
     object-fit: cover;
 }
 
-.card-title {
-    font-size: 18px;
+.card-title h2{
     color: #3a3a3a;
     padding: 0 0 15px;
     line-height: 1.4;
@@ -392,7 +391,7 @@ footer p {
     }
 
 }
-@media(max-width:420px){
+@media(max-width:458px){
     .container{
         padding: 0 10px;
     }
@@ -410,9 +409,6 @@ footer p {
     }
     .card{
         padding:0px;
-    }
-    .card-title{
-        font-size: 16px;
     }
     .card-content, .card-title .date{
         font-size: 13px;
