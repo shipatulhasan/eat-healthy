@@ -7,7 +7,9 @@
 html {
     scroll-behavior: smooth;
   }
-
+body{
+    background: #fff;
+}
 .container {
     width: 1180px;
     max-width: 100%;
@@ -29,7 +31,6 @@ html {
 
 .col-3 {
     flex-basis: 30%;
-    max-width: 30%;
 }
 
 .heading {
@@ -233,6 +234,7 @@ footer p {
         flex-basis: 45%;
         max-width: 45%;
     }
+
     .heading{
         font-size: 35px;
     }
@@ -261,9 +263,6 @@ footer p {
     /* .hero .row,.about .row{
         flex-flow: wrap column-reverse;
     } */
-    img{
-        width: 100%;
-    }
 
     /* Recipie */
     .block {
@@ -278,6 +277,14 @@ footer p {
     }
     .counter{
         padding: 0 0 80px;
+    }
+
+}
+@media(max-width:800px){
+    .recipies .col-2{
+        flex-basis:70%;
+        max-width: 70%;
+        margin: 20px 0;
     }
 
 }
@@ -301,6 +308,9 @@ footer p {
         flex-basis: 100%;
         max-width: 100%;
     }
+    /* .recipies .col-2{
+        flex-basis:70%
+    } */
     .hero .heading{
         font-size: 45px;
     }
@@ -321,20 +331,20 @@ footer p {
     .recipies .container {
         width: 600px;
         max-width: 100%;
-        padding: 50px 10px 40px;
+        padding: 50px 10px 20px;
         /* margin: 0 auto; */
     }
     .block {
         width:600px ;
         padding: 0 0 20px;
     }
-    .card{
-        /* margin-bottom: 20px; */
+     /* .card{
+        
         margin: 0 20px 30px;
-    }
-    .card-body {
+    } */
+    /* .card-body {
         padding: 25px;
-    }
+    } */
     .counter{
         margin: 0 20px;
     }
@@ -368,9 +378,13 @@ footer p {
     }
 
     /* Recipie */
+    .recipies .col-2{
+        flex-basis: 80%;
+        max-width: 80%;
+    }
     .card{
         /* margin-bottom: 20px; */
-        margin: 0 25px 30px;
+        margin: 20px 0;
         padding: 10px;
     }
     .counter{
