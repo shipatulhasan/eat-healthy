@@ -31,6 +31,7 @@ body{
 
 .col-3 {
     flex-basis: 30%;
+    max-width: 30%;
 }
 
 .heading {
