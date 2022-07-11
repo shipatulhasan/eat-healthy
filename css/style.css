@@ -149,7 +149,7 @@ img {
 
 .card-content {
     padding: 20px 0 ;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 500;
     line-height: 1.5;
 }
@@ -277,8 +277,8 @@ footer p {
         justify-content: space-evenly;
     }
 	.recipies .col-2{
-        flex-basis:70%;
-        max-width: 70%;
+        flex-basis:80%;
+        max-width: 80%;
         margin: 20px 0;
     }
     .counter{
@@ -376,10 +376,6 @@ footer p {
     }
 
     /* Recipie */
-    .recipies .col-2{
-        flex-basis: 80%;
-        max-width: 80%;
-    }
     .card{
         /* margin-bottom: 20px; */
         margin: 20px 0;
