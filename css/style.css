@@ -276,16 +276,13 @@ footer p {
     .recipies .row{
         justify-content: space-evenly;
     }
-    .counter{
-        padding: 0 0 80px;
-    }
-
-}
-@media(max-width:800px){
-    .recipies .col-2{
+	.recipies .col-2{
         flex-basis:70%;
         max-width: 70%;
         margin: 20px 0;
+    }
+    .counter{
+        padding: 0 0 80px;
     }
 
 }
